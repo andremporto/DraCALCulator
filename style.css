@@ -30,6 +30,12 @@ header {
 	padding: 2rem 0;
 }
 
+title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 #themeSwitcher {
 	background-color: var(--bg-color);
 	border: 0.125rem solid var(--font-color);
@@ -96,6 +102,13 @@ input {
 	display: block;
 	height: 4.25rem;
 	width: 6rem;
+}
+
+.img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 5rem;
 }
 
 .flex {
